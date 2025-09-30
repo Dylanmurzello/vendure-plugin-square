@@ -1,0 +1,52 @@
+{
+  "name": "@dylanmurzello/vendure-plugin-square",
+  "version": "1.0.0",
+  "description": "Square payment integration plugin for Vendure e-commerce. Supports payment authorization, settlement, and refunds with PCI-compliant card tokenization.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vendure",
+    "vendure-plugin",
+    "square",
+    "payments",
+    "ecommerce",
+    "payment-gateway",
+    "square-payments",
+    "payment-processing"
+  ],
+  "author": {
+    "name": "Dylan Murzello",
+    "email": "dylanmurzello@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dylanmurzello/vendure-plugin-square.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dylanmurzello/vendure-plugin-square/issues"
+  },
+  "homepage": "https://github.com/Dylanmurzello/vendure-plugin-square#readme",
+  "peerDependencies": {
+    "@vendure/core": "^3.0.0",
+    "square": "^43.0.0"
+  },
+  "devDependencies": {
+    "@vendure/core": "^3.4.2",
+    "square": "^43.1.0",
+    "typescript": "^5.8.2"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
