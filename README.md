@@ -4,7 +4,7 @@
 
 Process real payments through Square with full PCI compliance, automatic tokenization, and support for authorization, settlement, and refunds.
 
-[![npm version](https://img.shields.io/npm/v/vendure-plugin-square.svg)](https://www.npmjs.com/package/vendure-plugin-square)
+[![npm version](https://img.shields.io/npm/v/vendure-plugin-square.svg)]([https://www.npmjs.com/package/vendure-plugin-square](https://www.npmjs.com/package/@dylanmurzello/vendure-plugin-square))
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
